@@ -1,0 +1,95 @@
+.header {
+    background-color: #F7EBE5;
+    display: flex;
+    align-items: center;
+    height: 48px;
+}
+
+.header__top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.header__top_nav {
+    display: flex;
+    align-items: center;
+}
+
+.header__top_ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header__top_li,
+.header__top_li > a {
+    font-family: "Proxima Nova";
+    color: rgba(0, 0, 0, 0.644);
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+}
+
+.header__top_li > a {
+    margin-right: 15px;
+    color: rgba(0, 0, 0, 0.644);
+    font-size: 14px;
+}
+
+.header__top_right .header__top_li {
+    margin-right: 30px;
+}
+
+.header__top_right .header__top_li:last-child {
+    margin-right: 0px;
+}
+
+.header__top_social img {
+    margin-right: 15px;
+}
+
+.header__top_social img:last-child {
+    margin: 0;
+}
+
+.header__top_city {
+    margin-right: 5px;
+}
+
+.header__mobile_container {
+    display: flex;
+    width: 90vw;
+    justify-content: space-between;
+}
+
+.header__logo_wrapper {
+    position: relative;
+}
+
+.header__bgLogo {
+    position: absolute;
+    left: 21%;
+    bottom: 20%;
+    z-index: 0;
+}
+
+.header__bgLogo2 {
+    position: absolute;
+    left: 41%;
+    bottom: -25%;
+    z-index: 0;
+}
+
+.header__logo {
+    position: relative;
+    height: 30px;
+    z-index: 10;
+}
+
+@media screen and (max-width: 1102px) {
+    .header {
+        height: 76px;
+    }
+}
