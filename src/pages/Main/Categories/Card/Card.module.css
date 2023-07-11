@@ -1,0 +1,73 @@
+.color1, .color2 , .color3, .color4, .color5, .color6 {
+    width: 570px;
+    height: 260px;
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.color1 {
+    background: rgb(254, 233, 220);
+    background: linear-gradient(336deg, rgba(254, 233, 220, 1) 50%, rgba(253, 224, 205, 1) 50%);
+}
+
+.color2 {
+    background: rgb(253, 204, 212);
+    background: linear-gradient(-336deg, rgba(253, 204, 212, 1) 50%, rgba(254, 219, 225, 1) 50%);
+}
+
+.color3 {
+    background: rgb(211, 242, 211);
+    background: linear-gradient(-336deg, rgba(211, 242, 211, 1) 50%, rgba(193, 236, 192, 1) 50%);
+}
+
+.color4 {
+    background: rgb(251, 219, 213);
+    background: linear-gradient(336deg, rgba(251, 219, 213, 1) 50%, rgba(252, 230, 226, 1) 50%);
+}
+
+.color5 {
+    background: rgb(204, 234, 235);
+    background: linear-gradient(336deg, rgba(204, 234, 235, 1) 50%, rgba(183, 225, 227, 1) 50%);
+}
+
+.color6 {
+    background: rgb(206, 207, 238);
+    background: linear-gradient(-336deg, rgba(206, 207, 238, 1) 50%, rgba(221, 221, 243, 1) 50%);
+}
+
+.imgWrapper {
+    background-color: #fff;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    margin: 0 auto;
+    margin-top: 36px;
+}
+
+.title {
+    margin: 20px 0px 10px 0px;
+    font-size: 20px;
+    font-weight: 600;
+    font-family: 'Montserrat';
+}
+
+.subTitle {
+    font-size: 16px;
+    font-family: 'Proxima Nova';
+    width: 500px;
+    margin: 0 auto;
+}
+
+@media screen and (max-width: 1102px) {
+    .card {
+        width: 90vw;
+    }
+    .color1 , .color2 , .color3 , .color4 , .color5 , .color6 {
+        height: auto;
+        padding-bottom: 20px;
+    }
+
+    .subTitle {
+        width: auto;
+    }
+}

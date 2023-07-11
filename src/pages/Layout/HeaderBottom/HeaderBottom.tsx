@@ -8,7 +8,7 @@ import arrow from "../Header/img/Vector.svg";
 import logo from "../Header/img/logoBottom.svg";
 
 const HeaderBottom: React.FC = () => {
-  const isDesktope = useMediaQuery({ query: "(min-width: 1102px)" });
+  const isDesktope = useMediaQuery({ query: "(min-width: 1123px)" });
 
   return (
     <>

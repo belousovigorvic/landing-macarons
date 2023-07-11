@@ -18,8 +18,8 @@ import bgLogo2 from "./img/bg-logo2.svg";
 import HeaderBottom from "../HeaderBottom/HeaderBottom";
 
 const Header: React.FC = () => {
-  const isTabletAndPhone = useMediaQuery({ query: "(max-width: 1102px)" });
-  const isDesktope = useMediaQuery({ query: "(min-width: 1102px)" });
+  const isTabletAndPhone = useMediaQuery({ query: "(max-width: 1122px)" });
+  const isDesktope = useMediaQuery({ query: "(min-width: 1123px)" });
 
   return (
     <>

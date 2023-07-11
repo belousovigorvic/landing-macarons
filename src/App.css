@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+:root {
+    --bgColor: #F7F7F7;
+}
+
 ul {
     list-style: none
 }
