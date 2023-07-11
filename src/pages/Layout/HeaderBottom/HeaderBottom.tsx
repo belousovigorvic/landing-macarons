@@ -8,7 +8,6 @@ import arrow from "../Header/img/Vector.svg";
 import logo from "../Header/img/logoBottom.svg";
 
 const HeaderBottom: React.FC = () => {
-  const isTabletAndPhone = useMediaQuery({ query: "(max-width: 1102px)" });
   const isDesktope = useMediaQuery({ query: "(min-width: 1102px)" });
 
   return (
@@ -47,12 +46,6 @@ const HeaderBottom: React.FC = () => {
           </nav>
         </div>
       )}
-      {isTabletAndPhone && 
-        <div className={classes.mobile_container}>
-          <h1>MACARONSHOP</h1> 
-          <h3>since 2013</h3>
-        </div>
-      }
     </>
   );
 };
