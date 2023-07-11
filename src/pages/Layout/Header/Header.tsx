@@ -1,4 +1,4 @@
-import React from "react";
+import React, { FC } from "react";
 import Container from "../../../Components/Container/Container";
 import classes from "./Header.module.css";
 import { Link } from "react-router-dom";
@@ -17,9 +17,9 @@ import bgLogo from "./img/bg-logo.svg";
 import bgLogo2 from "./img/bg-logo2.svg";
 import HeaderBottom from "../HeaderBottom/HeaderBottom";
 
-const Header: React.FC = () => {
-  const isTabletAndPhone = useMediaQuery({ query: "(max-width: 1122px)" });
-  const isDesktope = useMediaQuery({ query: "(min-width: 1123px)" });
+const Header: FC = () => {
+  const isTabletAndPhone: boolean = useMediaQuery({ query: "(max-width: 1125px)" });
+  const isDesktope: boolean = useMediaQuery({ query: "(min-width: 1125px)" });
 
   return (
     <>
@@ -27,21 +27,13 @@ const Header: React.FC = () => {
         <Container>
           {isTabletAndPhone && (
             <div className={classes.header__mobile_container}>
-              <img src={burger} />
+              <img src={burger} alt="burger" />
               <div className={classes.header__logo_wrapper}>
-                <img
-                  src={bgLogo}
-                  alt="bgLogo"
-                  className={classes.header__bgLogo}
-                />
+                <img src={bgLogo} alt="bgLogo" className={classes.header__bgLogo} />
                 <img src={logo} alt="logo" className={classes.header__logo} />
-                <img
-                  src={bgLogo2}
-                  alt="bgLogo2"
-                  className={classes.header__bgLogo2}
-                />
+                <img src={bgLogo2} alt="bgLogo2" className={classes.header__bgLogo2} />
               </div>
-              <img src={bagIcon} />
+              <img src={bagIcon} alt="bagIcon" />
             </div>
           )}
           {isDesktope && (

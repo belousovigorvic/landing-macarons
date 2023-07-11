@@ -1,11 +1,13 @@
 import { Route, Routes } from "react-router-dom";
 import "./App.css";
-import Header from "./pages/Layout/Header/Header";
 import Layout from "./pages/Layout/Layout";
 import Main from "./pages/Main/Main";
 import { ParallaxProvider } from "react-scroll-parallax";
+import React from "react";
 
-function App() {
+type HeaderProps = {};
+
+const App: React.FC<HeaderProps> = () => {
   return (
     <>
     <ParallaxProvider>
@@ -17,6 +19,6 @@ function App() {
     </ParallaxProvider>
     </>
   );
-}
+};
 
 export default App;

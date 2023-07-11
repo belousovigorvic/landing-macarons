@@ -20,4 +20,8 @@ a {
     font-family: 'Proxima Nova';
     src: url('../Fonts/ProximaNova/proximanova_regular.ttf') format('truetype');
     /* Дополнительные настройки шрифта, если необходимо */
-  }
+}
+
+html {
+    overflow-x: hidden;
+}
