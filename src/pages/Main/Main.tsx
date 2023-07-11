@@ -42,15 +42,17 @@ const Main: React.FC = () => {
             <img className={classes.myata2} src={myata2} alt="mindal" />
           </div>
           <div className={classes.wrapper}>
-            <div>
-              <p className={classes.name}>MACARONSHOP</p>
-              <p className={classes.subtitle}>since 2013</p>
-              <h1 className={classes.title}>Настоящая любовь</h1>
-              <p className={classes.about}>
-                Пирожные макарон и другие десерты из натуральных ингредиентов,
-                приготовленные с любовью
-              </p>
-            </div>
+            <Parallax speed={-10}>
+              <div>
+                <p className={classes.name}>MACARONSHOP</p>
+                <p className={classes.subtitle}>since 2013</p>
+                <h1 className={classes.title}>Настоящая любовь</h1>
+                <p className={classes.about}>
+                  Пирожные макарон и другие десерты из натуральных ингредиентов,
+                  приготовленные с любовью
+                </p>
+              </div>
+            </Parallax>
             <img className={classes.ellipse3} src={ellipse3} alt="ellipse" />
             <img className={classes.ellipse4} src={ellipse4} alt="ellipse" />
           </div>

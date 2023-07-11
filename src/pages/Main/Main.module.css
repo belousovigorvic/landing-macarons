@@ -45,7 +45,7 @@
   position: absolute;
   z-index: 0;
   right: -150px;
-  bottom: -50px;
+  top: -177px;
 }
 .ellipse4 {
   position: absolute;
@@ -55,18 +55,18 @@
 }
 .macaron {
   position: absolute;
-  z-index: -100;
+  z-index: 100;
   left: 0;
 }
 .macaron2 {
   position: absolute;
-  z-index: -100;
+  z-index: 100;
   left: -87px;
   bottom: 50px;
 }
 .macaron3 {
   position: absolute;
-  z-index: -100;
+  z-index: 100;
   right: -46px;
   bottom: 50px;
 }
@@ -78,7 +78,7 @@
 }
 .macaron5 {
   position: absolute;
-  z-index: -100;
+  z-index: 100;
   left: 50px;
   top: 0px;
 }
