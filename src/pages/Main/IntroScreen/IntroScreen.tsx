@@ -1,7 +1,7 @@
 import React from "react";
 import Container from "../../../Components/Container/Container";
 import classes from './IntroScreen.module.css';
-import cake from "./img/cake1.svg";
+import cake from "./img/cake1.webp";
 import ellipse from "./img/Ellipse 23.svg";
 import ellipse2 from "./img/Ellipse 21.svg";
 import ellipse3 from "./img/Ellipse 3.svg";

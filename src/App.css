@@ -1,27 +1,46 @@
 * {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
 
 :root {
-    --bgColor: #F7F7F7;
+  --bgColor: #f7f7f7;
 }
 
 ul {
-    list-style: none
+  list-style: none;
 }
 
 a {
-    text-decoration: none;
+  text-decoration: none;
+}
+
+.swiper-pagination {
+  text-align: right !important;
+}
+
+.swiper-pagination-bullet-active {
+  background-color: #e7426a !important;
+  height: 12px !important;
+  width: 12px !important;
+  border-radius: 0% !important;
+}
+
+.swiper-pagination-bullet {
+  background-color: #fff;
+  border: 1px solid #e5e5e5 !important;
+  border-radius: 0% !important;
+  height: 12px !important;
+  width: 12px !important;
 }
 
 @font-face {
-    font-family: 'Proxima Nova';
-    src: url('../Fonts/ProximaNova/proximanova_regular.ttf') format('truetype');
-    /* Дополнительные настройки шрифта, если необходимо */
+  font-family: "Proxima Nova";
+  src: url("../Fonts/ProximaNova/proximanova_regular.ttf") format("truetype");
+  /* Дополнительные настройки шрифта, если необходимо */
 }
 
 html {
-    overflow-x: hidden;
+  overflow-x: hidden;
 }

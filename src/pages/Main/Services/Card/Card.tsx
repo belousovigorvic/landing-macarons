@@ -1,4 +1,4 @@
-import React, { CSSProperties } from 'react'
+import React from 'react'
 import classes from './Card.module.css'
 
 type CardProps = {
@@ -8,7 +8,9 @@ type CardProps = {
   bg: string,
 }
 
-const Card: React.FC<CardProps> = ({ img, title, subTitle, bg }) => {
+const Card: React.FC<CardProps> = ({ img, title, subTitle, bg}) => {
+
+  
   return (
     <div className={`${classes[bg]} ${classes.card}}`}>
       <div className={classes.imgWrapper}>

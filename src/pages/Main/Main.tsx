@@ -1,12 +1,14 @@
 import React from 'react'
 import IntroScreen from './IntroScreen/IntroScreen'
-import Categories from './Categories/Categories'
+import Services from './Services/Services'
+import Stock from './Stock/Stock'
 
 const Main:React.FC = () => {
   return (
     <div>
       <IntroScreen/>
-      <Categories/>
+      <Services/>
+      <Stock/>
     </div>
   )
 }

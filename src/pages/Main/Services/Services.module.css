@@ -9,7 +9,7 @@
     flex-wrap: wrap;
 }
 
-@media screen and (max-width: 1156px) {
+@media screen and (max-width: 1098px) {
     .card__wrapper {
         justify-content: center;
         padding-top: 260px;
