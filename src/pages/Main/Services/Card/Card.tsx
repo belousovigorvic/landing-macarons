@@ -8,16 +8,14 @@ type CardProps = {
   bg: string,
 }
 
-const Card: React.FC<CardProps> = ({ img, title, subTitle, bg}) => {
-
-  
+const Card: React.FC<CardProps> = ({ img, title, subTitle, bg }) => {
   return (
     <div className={`${classes[bg]} ${classes.card}}`}>
       <div className={classes.imgWrapper}>
         <img src={img} alt="img" />
       </div>
-      <div className={classes.title}>{title} &rarr;</div>
-      <div className={classes.subTitle}>{subTitle}</div>
+        <div className={classes.title}>{title} &rarr;</div>
+        <div className={classes.subTitle}>{subTitle}</div>
     </div>
   )
 }

@@ -8,7 +8,7 @@ import img3 from "./img/img3.svg";
 import img4 from "./img/img4.svg";
 import img5 from "./img/img5.svg";
 import img6 from "./img/img6.svg";
-import "animate.css";
+
 
 const Services: React.FC = () => {
   interface dataCard {
@@ -73,12 +73,13 @@ const Services: React.FC = () => {
       <Container>
         <div className={classes.card__wrapper}>
           {dataCard.map((card) => (
-              <Card
-                img={card.img}
-                title={card.title}
-                subTitle={card.subTitle}
-                bg={card.class}
-              />
+            <Card
+              key={card.id}
+              img={card.img}
+              title={card.title}
+              subTitle={card.subTitle}
+              bg={card.class}
+            />
           ))}
         </div>
       </Container>

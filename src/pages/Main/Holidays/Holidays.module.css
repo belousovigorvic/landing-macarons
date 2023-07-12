@@ -1,0 +1,29 @@
+.holidays {
+  margin-top: 140px;
+}
+
+.imgWrap {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.imgWrap img {
+  object-fit: cover;
+  width: 70px;
+  height: 50px;
+  margin-bottom: 10px;
+}
+
+.text {
+  text-align: center;
+  font-family: "Montserrat";
+  font-size: 14px;
+  font-weight: 600;
+  width: 165px;
+}
+
+.imgItem {
+  text-align: center;
+}

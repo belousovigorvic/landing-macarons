@@ -44,3 +44,9 @@ a {
 html {
   overflow-x: hidden;
 }
+
+@media screen and (max-width: 1200px) {
+  .swiper-pagination {
+    text-align: center !important;
+  }
+}

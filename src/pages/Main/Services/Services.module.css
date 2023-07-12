@@ -9,9 +9,14 @@
     flex-wrap: wrap;
 }
 
-@media screen and (max-width: 1098px) {
+@media screen and (max-width: 1160px) {
     .card__wrapper {
         justify-content: center;
-        padding-top: 260px;
-    } 
+    }
+}
+
+@media screen and (max-width: 1101px) {
+    .card__wrapper {
+        padding-top: 170px;
+    }
 }

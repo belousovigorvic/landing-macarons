@@ -18,6 +18,7 @@ import myata2 from "./img/Layer 23 1.svg";
 import { Parallax } from "react-scroll-parallax";
 
 const IntroScreen: React.FC = () => {
+
   return (
     <div className={classes.main}>
       <Container>

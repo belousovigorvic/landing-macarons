@@ -90,7 +90,23 @@ const Stock: React.FC = () => {
             slidesPerView={4}
             autoplay={true}
             pagination={{ clickable: true }}
-            scrollbar={{ draggable: true }}
+
+            breakpoints={{
+              // when window width is >= 640px
+              0: {
+                slidesPerView: 1,
+              },
+              // when window width is >= 768px
+              768: {
+                slidesPerView: 2,
+              },
+              1100: {
+                slidesPerView: 3,
+              },
+              1200: {
+                slidesPerView: 4,
+              },
+            }}
           >
             {stockData.map((card) => (
               <SwiperSlide key={card.id}>
