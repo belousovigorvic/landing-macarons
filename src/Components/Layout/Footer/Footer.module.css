@@ -1,0 +1,142 @@
+.footer {
+    background: #ebedee;
+    padding-top: 40px;
+    padding-bottom: 70px;
+}
+
+.footer__icons {
+    display: flex;
+    justify-content: space-between;
+    width: 300px;
+}
+
+.footer__wrapper {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.footer__icons_group {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+}
+
+.footer__icons_img {
+    display: block;
+    margin: 0 auto;
+    height: 35px;
+}
+
+.footer__icons_text {
+    font-family: 'Proxima Nova';
+    font-size: 12px;
+    color: #292929;
+    text-align: center;
+    width: 97px;
+    margin-top: 15px;
+}
+
+.text__wrap {
+    display: block;
+    margin: 0 auto;
+}
+
+.footer__address_text {
+    font-family: 'Proxima Nova';
+    font-size: 12px;
+    color: #636464;
+}
+
+.footer__column_title {
+    font-family: 'Proxima Nova';
+    font-weight: 600;
+    font-size: 16px;
+    color: #292929;
+    margin-bottom: 18px;
+}
+
+.footer__column_link {
+    font-family: 'Proxima Nova';
+    font-weight: 400;
+    font-size: 14px;
+    color: #292929;
+    margin-bottom: 10px;
+}
+
+.footer__social {
+    display: flex;
+    justify-content: space-between;
+}
+
+.tel {
+    font-family: 'Proxima Nova';
+    font-weight: 600;
+    font-size: 18px;
+    color: #292929;
+    text-align: right;
+}
+
+.time {
+    font-family: 'Proxima Nova';
+    font-weight: 400;
+    font-size: 14px;
+    color: #292929;
+    margin-top: 5px;
+    text-align: right;
+    margin-bottom: 80px;
+}
+
+.icon_social {
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@media screen and (max-width: 520px) {
+    .footer__icons_group {
+        width: 100%;
+    }
+
+    .footer__icons {
+        width: 100%;
+    }
+
+    .footer__inner {
+        flex: 1;
+        flex-direction: column;
+    }
+
+    .footer__column {
+        display: none;
+    }
+
+    .footer__address_text {
+        display: flex;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .time {
+        text-align: center;
+    }
+
+    .rightBlock {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        margin: 20px auto;
+    }
+
+    .tel {
+        text-align: center;
+        display: flex;
+        justify-content: center;
+    }
+}

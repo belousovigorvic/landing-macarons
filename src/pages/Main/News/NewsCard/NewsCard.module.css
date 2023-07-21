@@ -1,0 +1,44 @@
+.newsCard {
+  width: 370px;
+  border-radius: 4px;
+  border: 1px solid #ededf0;
+  background: #fff;
+  padding-bottom: 80px;
+  margin: 0 auto;
+}
+
+.newsCard__data {
+  font-family: 'Montserrat';
+  font-weight: 400;
+  font-size: 14px;
+  color: #969696;
+}
+
+.newsCard__textdata {
+  padding: 20px 20px 40px 20px;
+}
+
+.newsCard__title {
+  font-family: 'Montserrat';
+  font-weight: 600;
+  font-size: 18px;
+  margin: 10px 0px;
+}
+
+.newsCard__text {
+  font-family: 'Proxima Nova';
+  font-weight: 400;
+  font-size: 14px;
+  color: #292929;
+  text-align: left;
+}
+
+.newsCard__img {
+  width: 100%;
+}
+
+@media screen and (max-width: 450px) {
+  .newsCard {
+    width: 100%;
+  }
+}

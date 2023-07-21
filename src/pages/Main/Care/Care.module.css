@@ -1,0 +1,15 @@
+.care {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.care__wrap {
+  background-color: var(--bgColor);
+}
+
+@media screen and (max-width: 557px) {
+  .care {
+    justify-content: center;
+  }
+}

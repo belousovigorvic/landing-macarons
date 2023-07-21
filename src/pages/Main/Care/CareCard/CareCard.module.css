@@ -1,0 +1,29 @@
+.CareCard {
+  width: 270px;
+  margin-bottom: 37px;
+}
+
+.CareCard__title {
+  font-family: 'Montserrat';
+  font-weight: 600;
+  font-size: 18px;
+  margin: 29px 0px 14px 0px;
+  color: #292929;
+}
+
+.CareCard__text {
+  font-family: 'Proxima Nova';
+  font-weight: 400;
+  font-size: 14px;
+  color: #525252;
+}
+
+.CareCard__img {
+  width: 100%;
+}
+
+@media screen and (max-width: 285px) {
+  .CareCard {
+    width: 100%;
+  }
+}

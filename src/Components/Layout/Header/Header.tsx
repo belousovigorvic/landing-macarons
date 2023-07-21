@@ -42,7 +42,7 @@ const Header: FC = () => {
                 <nav className={classes.header__top_nav}>
                   <ul className={classes.header__top_ul}>
                     <li className={classes.header__top_li}>
-                      <Link to={"/"}>Гарантия свежести</Link>
+                      <Link to={"/guarantees"}>Гарантия свежести</Link>
                     </li>
                     <li className={classes.header__top_li}>
                       <Link to={"/"}>Доставка и оплата</Link>

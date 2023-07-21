@@ -1,5 +1,6 @@
 .holidays {
-  margin-top: 140px;
+  
+  background: var(--bgColor);
 }
 
 .imgWrap {
@@ -7,6 +8,8 @@
   justify-content: space-between;
   padding-top: 40px;
   padding-bottom: 40px;
+  position: relative;
+  flex-wrap: wrap;
 }
 
 .imgWrap img {
@@ -26,4 +29,11 @@
 
 .imgItem {
   text-align: center;
+  margin-bottom: 10px;
+}
+
+@media screen and (max-width: 350px) {
+  .imgWrap {
+    justify-content: center;
+  }
 }

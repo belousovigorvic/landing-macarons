@@ -29,7 +29,7 @@ const HeaderBottom: React.FC = () => {
                   <img src={arrow} alt="percent" />
                 </li>
                 <li>
-                  <img src={logo} alt="logo" />
+                  <img className={classes.logo} src={logo} alt="logo" />
                 </li>
                 <li>
                   <Link to={"/"}>СОЗДАТЬ ДИЗАЙН</Link>

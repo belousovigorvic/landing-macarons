@@ -1,0 +1,14 @@
+.button {
+  display: block;
+  margin: 0 auto;
+  font-family: 'Montserrat';
+  font-size: 14px;
+  font-weight: 600;
+  text-align: center;
+  padding: 18px 48px;
+  border-radius: 3px;
+  border: 1px solid #4E9DD3;
+  margin-top: 35px;
+  background: #F7F7F7;
+  cursor: pointer;
+}
